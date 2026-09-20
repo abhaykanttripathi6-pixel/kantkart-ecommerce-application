@@ -110,10 +110,10 @@ const Checkout = () => {
             if (!postOfficeInfo) {
                 return "Unable to verify pincode."
             } else {
-                const verifyPincode = postOfficeInfo.some(data => Number(data.Pincode) === Number(pincode));
-                const verifyPincode_City = postOfficeInfo.some(data => Number(data.Pincode) === Number(pincode) && data.District.toLowerCase() === city.toLowerCase());
+                const verifyPincode = postOfficeInfo.some(data => Number(data.Pincode) === Number(pincode.trim()));
+                const verifyPincode_City = postOfficeInfo.some(data => Number(data.Pincode) === Number(pincode) && data.District.toLowerCase() === city.trim().toLowerCase());
 
-                const verifyPincode_State = postOfficeInfo.some(data => Number(data.Pincode) === Number(pincode) && data.State.toLowerCase().includes(state.toLowerCase()));
+                const verifyPincode_State = postOfficeInfo.some(data => Number(data.Pincode) === Number(pincode) && data.State.toLowerCase().includes(state.trim().toLowerCase()));
 
                 if (!verifyPincode) {
                     return "Pincode is not serviceable.";
