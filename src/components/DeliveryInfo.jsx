@@ -59,7 +59,7 @@ const DeliveryInfo = ({ shippingInfo, handleOnChange, errorMessage }) => {
                         <span>City</span>
                         <input
                             type="text"
-                            placeholder='Enter your country'
+                            placeholder='Enter your city'
                             required
                             name='city'
                             value={shippingInfo.city}
