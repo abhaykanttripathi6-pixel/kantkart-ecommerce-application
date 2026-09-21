@@ -17,7 +17,7 @@ const OurValues = () => {
                     <div className='flex items-center gap-3 sm:flex-row-reverse lg:gap-5'>
                         <div className='p-4 bg-indigo-800 rounded-full text-white '><Heart fill='white' /></div>
                         <div>
-                            <h3 className='text-2xl font-semibold'>Trust</h3>
+                            <h3 className='text-xl font-semibold lg:text-2xl'>Trust</h3>
                             <p className='text-base font-medium'>Shop confidently with products you can count on.</p>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const OurValues = () => {
                             <ShieldCheck fill='white' />
                         </div>
                         <div>
-                            <h3 className='text-2xl font-semibold'>Quality</h3>
+                            <h3 className='text-xl font-semibold lg:text-2xl'>Quality</h3>
                             <p className='text-base font-medium'>Discover products selected with quality in mind.</p>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ const OurValues = () => {
                     <div className='flex items-center gap-3 lg:gap-5'>
                         <div className='p-4 bg-indigo-800 rounded-full text-white '><ShoppingCart fill='white' /></div>
                         <div>
-                            <h3 className='text-2xl font-semibold'>Easy Shopping</h3>
+                            <h3 className='text-xl font-semibold lg:text-2xl'>Easy Shopping</h3>
                             <p className='text-base font-medium'>Find what you need with a simple, seamless experience.</p>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const OurValues = () => {
                     <div className='flex items-center gap-3'>
                         <div className='p-4 bg-indigo-800 rounded-full text-white'><Tags fill='white' /></div>
                         <div>
-                            <h3 className='text-2xl font-semibold'>Great Deals</h3>
+                            <h3 className='text-xl font-semibold lg:text-2xl'>Great Deals</h3>
                             <p className='text-base font-medium'>Enjoy exciting offers across your favorite categories.</p>
                         </div>
                     </div>

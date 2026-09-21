@@ -11,7 +11,7 @@ const MyOrders = () => {
   const navigate = useNavigate();
 
   return (
-    <div className='my-18 p-5 flex justify-center items-center'>
+    <div className='my-18 flex justify-center items-center'>
 
       {
         !orders.length ?
@@ -37,7 +37,7 @@ const MyOrders = () => {
           <div className='flex flex-col gap-5 p-5 sm:p-10 md:w-full lg:w-[70%]'>
             <h1 className='text-3xl font-semibold '>My Orders</h1>
 
-            <div className='w-full flex flex-col gap-5 sm:gap-8'>
+            <div className='w-full flex flex-col gap-8'>
               {
                 orders.map(orderData => {
 

@@ -15,10 +15,9 @@ const ShoesBanner = () => {
     }
 
     return (
-        <div className='mb-8 p-5 flex bg-blue-50 relative overflow-hidden sm:p-8 sm:gap-10 md:gap-15 lg:h-100 lg:gap-20'>
+        <div className=' min-h-55 p-5 flex bg-blue-50 relative overflow-hidden sm:p-8 sm:gap-10 md:gap-15 lg:h-100 lg:gap-20'>
 
-            <div className='flex-1 flex lg:justify-end lg:gap-5'>
-                <div className='h-full flex flex-col justify-center gap-2 lg:gap-4'>
+            <div className='flex-1 flex flex-col justify-center gap-3 lg:p-10 lg:gap-5'>
                     <div className='text-base font-extrabold sm:text-xl md:text-3xl lg:text-6xl lg:font-extrabold'>
                         <h2 className='text-gray-800 text-shadow-lg'>ICONIC STYLE.</h2>
                         <h2 className='text-red-700 text-shadow-lg'>TIMELESS APPEAL.</h2>
@@ -31,7 +30,6 @@ const ShoesBanner = () => {
                     >
                         Shop Now
                     </button>
-                </div>
             </div>
 
             <div className='flex-1 flex items-center relative z-1 bg-transparent'>

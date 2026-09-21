@@ -18,7 +18,7 @@ const Banner = () => {
     }
 
     return (
-        <div className='p-3 flex flex-col gap-3 sm:grid sm:grid-cols-2 sm:grid-rows-2 md:grid-cols-3 md:p-8 lg:p-15'>
+        <div className='p-3 flex flex-col gap-5 sm:grid sm:grid-cols-2 sm:grid-rows-2 md:grid-cols-3 md:p-8 lg:p-15'>
 
             <div
                 onClick={() => handleOnClick("laptops", "Electronics")}
